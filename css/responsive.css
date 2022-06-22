@@ -1,0 +1,654 @@
+
+@media only screen and (max-width:739px){
+    .hero-wrapper{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin: 0 auto;
+    }
+    .hero-wrapper-right{
+        height: auto;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .header-wrapper-img{
+        height: auto;
+        margin: 0 auto;
+    }
+    .hero-wrapper-left{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: -150px;
+    }
+    .hero-wrapper-title{
+        font-size: 18px;
+        text-align: center;
+        width: 90%;
+    }
+    .hero-wrapper-para{
+        font-size: 14px;
+        text-align: center;
+        width: 90%;
+        margin-top: -2rem;
+    }
+    .btn-main{
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+    .btn-second{
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+   .button-hero{
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 10px;
+     
+    }
+    .content-info{
+        width: 100%;
+    }
+    .content-info-img{
+        width: 605px;
+        height: 143px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    /*Content-info*/
+    .content-infos{
+        height: 143px;
+        width: 150px;
+        border-radius: 12px;
+        margin:0 5px;
+    }
+    .content-info-icon{
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+    }
+    .content-info-img-icon{
+        background-color: #d6e5d8;
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-top: 20px;
+    }
+    .content-info-hour{
+        font-family: 'Poppins',sans-serif;
+        font-size: 14px;
+        text-align: center;
+        margin: 0 auto;
+        width: 90px;
+        margin-top: 15px;
+    }
+    .content-info-open{
+        text-align: center;
+        font-size: 14px;
+        width: 60%;
+        line-height: 1rem;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+    /*Content-top-dishes*/
+    .content-top-dishes{
+        width: 100%;
+        height:365px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .content-child-dishes{
+        width:658px;
+        height: 260px;
+        max-width: 90%;
+        height: auto;
+    }
+    .content-dishes-list{
+        height: 225px;
+        width: 658px;
+        max-width: 100%;
+        margin-top: 18px;
+        display: flex;
+        height: auto;
+        justify-content: space-between;
+    }
+    .content-dishes-title{
+        font-family: 'Poppins',sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #3b413a;
+    }
+    .content-dishes-item{
+        height: 224px;
+        width: 32%;
+        border-radius: 12px;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+    .content-dishes-img{
+        width: 90%;
+        height: auto;
+    }
+    .content-dishes-imgage{
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .content-dishes-info{
+        width:200px;
+        max-width: 90%;
+        height: auto;
+    }
+    .content-title-dishes{
+        font-size: 14px;
+        height: 18px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .content-price-dishes{
+        font-size: 14px;
+        color: #26643b;
+        max-width: 100%;
+        height: auto;
+    }
+    .content-dishes-img-star{
+       height: auto;
+    }
+      /*Content-special*/
+      .content-special{
+        padding: 150px 0;
+      }
+      .content-wrapper-special{
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .content-special-img-icon{
+        margin-bottom: -50px;
+    }
+    .content-title-right{
+        font-size: 18px;
+    }
+    .content-text-right{
+        font-size: 14px;
+    }
+    .content-special-left{
+        gap: 20px;
+        width: 100%;
+    }
+    .content-special-iteam{
+        width: 48%;
+        height: auto;
+    }
+    .content-special-title{
+        width: 171px;
+        margin-top: 10px;
+    }
+    .content-special-title{
+        font-size: 14px;
+    }
+    .content-special-price{
+        font-size: 14px;
+        margin-top: -10px;
+        margin-bottom: -2px;
+    }
+    .content-special-text{
+        margin-top: 10px;
+    }
+
+    /* content-discount / content-sales */
+
+    .content-discout-wrapper {
+        flex-direction: column;
+    }
+    .content-discout-info {
+        align-self: flex-start;
+    }
+    .discout-text {
+        font-size: 24px;
+    }
+    .discout-title {
+        font-size: 24px;
+    }
+    .discout-price {
+        font-size: 18px;
+    }
+    .discout-text{
+        font-size: 14px;
+    }
+    .discout-title{
+        font-size: 18px;
+    }
+    .discout-old-price{
+        font-size: 14px;
+    }
+    .discout-new-price{
+        font-size: 14px;
+    }
+    .btn-link-book{
+        font-size: 14px;
+    }
+    /*  */
+ 
+    /*content-events-book  */
+    .content-events {
+        flex-direction: column;
+    }
+    .content-info-event-tile{
+        font-size: 14px;
+    }
+    .content-info-event-text{
+        font-size: 14px;
+    }
+    .content-event-title-right{
+        font-size: 18px;
+    }
+    .content-event-text-right{
+        font-size: 14px;
+    }
+    .content-btn-link-btn{
+        font-size: 14px;
+    }
+    /*  */
+
+
+    /*why-choose-food  */
+    .why-choose-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .why-choose-left-wrapper {
+        align-self: center;
+        flex:1;
+        text-align: center;
+    }
+    .why-choose-container{
+        width: 90%;
+    }
+    .why-choose-right-wrapper {
+        align-self: center;
+        flex:1;
+        text-align: center;
+    }
+    .why-choose-title{
+        font-size: 18px;
+    }
+    .why-choose-iteam-text{
+        font-size: 14px;
+    }
+    .why-choose-text{
+        font-size: 14px;
+        width: 65%;
+        margin: 0 auto;
+    }
+    /*  */
+    /* content-newsletter */
+    .content-newsletter{
+        padding-top: 30px;
+    }
+    .newsletter-wrapper {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .newsletter-info,.newsletter-form {
+        width: 100%;
+    }
+    .newsletter-text {
+        max-width: 100%;
+    }
+    .newsletter-address {
+        width: 80%;
+    }
+    .newsletter-btn {
+        width: 20%;
+    }
+    /*  */
+    /* footer */
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-col-2 {
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width:600px){
+    .content-info{
+        width: 100%;
+    }
+    .content-info-img{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .content-infos{
+        border-radius: 12px;
+    }
+    /*Content-top-dishes*/
+    .content-top-dishes{
+        width: 100%;
+        height:593px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .content-child-dishes{
+        height: 493px;
+        width: 434px;
+        max-width: 90%;
+        height: auto;
+    }
+    .content-dishes-list{
+        height: 225px;
+        width: 434px;
+        max-width: 100%;
+        margin-top: 18px;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: flex-start;
+    }
+    .content-dishes-title{
+        font-family: 'Poppins',sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #3b413a;
+    }
+    .content-dishes-item{
+        height: 224px;
+        width: 45%;
+        border-radius: 12px;
+        display: flex;
+        height: auto;
+        margin: 10px 5px;
+        flex-direction: column;
+    }
+    .content-dishes-img{
+        width: 95%;
+        height: auto;
+        margin-top: 3px;
+    }
+    .content-dishes-imgage{
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+    .content-dishes-info{
+        width:200px;
+        max-width: 90%;
+        height: auto;
+    }
+    .content-title-dishes{
+        font-size: 14px;
+        height: 18px;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    .content-price-dishes{
+        font-size: 14px;
+        color: #26643b;
+        max-width: 100%;
+        height: auto;
+    }
+    .content-dishes-img-star{
+       height: auto;
+    }
+    /*Content-special*/
+     .content-special{
+        padding: 250px 0 0 0;
+      }
+      .content-wrapper-special{
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .content-special-img-icon{
+        margin-bottom:-50px;
+    }
+    .content-title-right{
+        font-size: 18px;
+    }
+    .content-text-right{
+        font-size: 14px;
+    }
+    .content-special-left{
+        gap: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .content-special-iteam{
+        width: 100%;
+        height: auto;
+    }
+    .content-special-title{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .content-special-title{
+        font-size: 14px;
+        margin-top: 50px;
+    }
+    .content-special-price{
+        font-size: 14px;
+        margin-top: -10px;
+        margin-bottom: -2px;
+    }
+    .content-special-text{
+        margin-top: 10px;
+    }
+    .content-special-iteam-2 {
+        margin-top: 110px;
+    }
+
+    .content-special-right{
+        flex-grow: 1;
+    }
+    .content-special-title{
+        font-size: 14px;
+    }
+    .content-special-price{
+        font-size: 14px;
+    }
+       /*customer-say*/
+    .testimonial-title{
+        font-size: 18px;
+    }
+    .testimonial-item-star{
+        margin-top: -5px;
+    }
+    .testimonial-item-text{
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .testimonial-item{
+        width: 99%;
+        height: auto;
+    }
+    .testimonial-item-3{
+       padding: 10px 10px;
+       height: 100%;
+    } 
+    .testimonial-item-3 .testimonial-img{
+        height: 100%;
+    }
+    .testimonial-item-3 .testimonial-img{
+        height: 100%;
+        width: 100%;
+    }
+    .testimonial-img{
+        width: 100%;
+        height: 100%;
+    }
+    .testimonial-item-info{
+        width: 100%;
+        height: 100%;
+    }
+    .testimonial-item-name{
+        font-size: 14px;
+    }
+    
+
+    
+}
+@media only screen and (min-width:740px) and (max-width:968px){
+    .content-hero{
+        width: 100%;
+        height: 653px;
+    }
+    .hero-wrapper{
+        margin: 0 auto;
+        display: flex;
+    }
+    .hero-wrapper-right{
+        display: flex;
+        align-items: center;
+    }
+    .header-wrapper-img{
+        height: auto;
+    }
+    .hero-wrapper-left{
+    }
+    /*Content-top-dishes*/
+    .content-top-dishes{
+        width: 100%;
+        height:1039px;
+        
+    }
+    .content-child-dishes{
+        width:900px;
+        height: 900px;
+    }
+    .content-dishes-list{
+        height: 900px;
+        width: 900px;
+        margin-top: 18px;
+        display: flex;
+        justify-content: flex-start;
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .content-dishes-title{
+        font-family: 'Poppins',sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        color: #3b413a;
+    }
+    .content-dishes-item{
+        height: 250px;
+        width: 900px;
+        max-width: 100%;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #d6e5d8;
+        margin: 20px 0;
+    }
+        
+    .content-dishes-img{
+        width: 250px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .content-dishes-info{
+       width: 300px;
+       height: 200px;
+       flex-grow: 1;
+       margin-left: 20px;
+    }
+    .content-title-dishes{
+        color: #3b413a;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 500;
+        font-size:24px;
+    }
+    .content-price-dishes{
+        background-color: #d6e5d8;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: #26643b;
+        display: flex;
+    }
+    .content-dishes-img-star{
+        background-color: #d6e5d8;
+    }
+    /*Content-special*/
+    .content-wrapper-special{
+        flex-wrap: wrap;
+    }
+    .content-title-right{
+        font-size: 18px;
+    }
+    .content-text-right{
+        font-size: 14px;
+    }
+    .content-special-right{
+        flex-grow: 1;
+    }
+    .content-special-title{
+        font-size: 14px;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .content-special-price{
+        font-size: 14px;
+    }
+    .content-special-left .content-special-iteam .content-food-img{
+        height: auto;
+    }
+
+
+}
+@media  only screen and (min-width:1024px) and (max-width:1300px)  {
+    .hide {
+        display: block;
+    }
+    /*Content-top-dishes*/
+    .content-top-dishes{
+        height: 700px;
+        
+    }
+    .content-child-dishes{
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .content-dishes-list{
+        height: 350px;
+        width: 800px;
+        margin-top: 18px;
+        display: inline-flex;
+        justify-content:flex-start;
+        flex-wrap:wrap;
+        margin: 0 auto;
+    }
+    .content-dishes-item{
+        height: 147.375px;
+        width: 380px;
+        max-width: 100%;
+        display: flex;
+        margin: 0 10px;
+        align-items: center;
+    }
+    .content-dishes-title{
+        font-family: 'Poppins',sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        text-align: left;
+        margin-bottom:25px;
+        margin-left: 120px;
+        color: #3b413a;
+        width: 100%;
+    }
+    
+}
